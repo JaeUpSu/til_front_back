@@ -1,0 +1,51 @@
+.movex {
+    float: left;
+    margin-left: 10px;
+    width: 100px;
+    height: 60px;
+    background-color: red;
+}
+.contents :nth-child(1):hover {
+    height: 220px;
+    transition-property: width, height;
+    transition-timing-function: ease-out;
+    /* in 느리게 시작, out 느리게 마무리 */
+    transition-duration: 2s, 1s;
+}
+.contents :nth-child(2):hover {
+    background-color: blue;
+
+    height: 40px;
+    transition-property: background-color, height;
+    transition-timing-function: ease-out;
+    /* in 느리게 시작, out 느리게 마무리 */
+    transition-duration: 2s, 1s;
+
+}
+.contents :nth-child(3):hover {
+    height: 120px;
+    background-color: blueviolet;
+    transition-property: background-color, height;
+    transition-timing-function: ease-in;
+    /* in 느리게 시작, out 느리게 마무리 */
+    transition-duration: 2s, 5s;
+}
+
+.contents :nth-child(4):hover {
+    width: 20px;
+    height: 420px;
+    background-color: aqua;
+    transition-property: width, height;
+    transition-timing-function: ease-in-out;
+    /* in 느리게 시작, out 느리게 마무리 */
+    transition-duration: 6s, 5s;
+}
+
+.contents :nth-child(5):hover {
+    transform: rotateX(360deg) translateY(120px) scale(2.0);
+    background-color: greenyellow;
+    transition-property: transform, background-color;
+    transition-timing-function: ease-in-out;
+    /* in 느리게 시작, out 느리게 마무리 */
+    transition-duration: 6s, 5s;
+}

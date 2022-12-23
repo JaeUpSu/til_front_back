@@ -1,0 +1,59 @@
+/*
+img {
+    width: 550px;
+    margin: 100px;
+    padding: 50px;
+    background-color: blueviolet;
+}
+.three{
+    background-color: violet;
+    margin-left: 40px;
+    font-style: oblique;
+    color: yellow;
+}*/
+/* 
+p {
+    font-style: italic;
+}
+.accent {
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+}
+span {
+    background-color: coral;
+}
+.bg {
+    background-color: #ddd;
+    margin-right: 650px;
+    padding: 15px;
+}
+#orange {
+    color: darkorange;
+} */
+/* 
+h1 {
+    color: coral !important;
+    font-weight: 80;
+    font-size: 90px;
+}
+
+.one {
+    text-align: center;
+    line-height: 20;
+} */
+
+.shadow1{
+    color: coral;
+    text-shadow: 3px 3px black;
+}
+.shadow2{
+    color: blue;
+    text-shadow: 3px 3px 5px cadetblue;
+}
+.shadow3{
+    color: red;
+    text-shadow: 3px 3px black;
+    opacity: 0.59;
+    letter-spacing: 40px;
+}

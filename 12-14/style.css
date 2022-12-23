@@ -1,0 +1,49 @@
+
+.wrap {
+    display: flex;
+    min-width: 40%;
+}
+header {
+    height: 20px;
+    width: 100%;
+    z-index: 10;        /* 덮어씌우는 우선순위 */
+
+    position: fixed;    /* 상단에 고정 */
+    border-bottom: 1px solid rgb(228, 228, 228);
+    box-shadow: 0 0.5px 5px 0;
+    
+}
+.container {
+    margin-top: 85px;
+}
+.container-fluid {
+    height: 100%;
+    border: 1px solid saddlebrown;
+}
+
+.navbar-brand {
+    border: 1px solid blueviolet;
+    margin-left: 10px;   
+}
+.header {
+}
+.navbar-brand img{
+    width: 100px;
+    height: 30px;
+}
+.nav-item.dropdown {
+    border-left: 3px solid rgb(218, 218, 218);
+}
+
+.nav-item a {
+    color: rgb(98, 98, 98);
+    border: 1px solid salmon;
+}
+
+.navbar-nav .nav-link {
+    border-radius: 100%;
+}
+/* 
+.navbar-nav .nav-link.active { 
+    background-color: rgb(228, 228, 228);
+} */

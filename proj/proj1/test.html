@@ -1,0 +1,384 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Science Times</title>
+    <link href="../proj1/images/logo.png" rel="shortcut icon" type="image/x-icon">
+    <link href="./test.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="header">
+            <nav class="navbar">
+                <div class="navbar-logo" href="#">
+                    <img src="./images/logo2.png">
+                    <span>The Science Times</span>
+                </div>
+                <ul class="navbar-nav" style="margin-left: 5px;">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Tech</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Publicy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Culture</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Dream</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Asia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">UK</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Business</a>
+                    </li>
+
+                    <li class="nav-item dropdown" style="width: 44px;">
+                        <a class="nav-link dropdown" href="#">More</a>
+                        <img src="./images/triangle.png">
+                    </li>
+                </ul>
+                <div class="burger-btn">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </nav>
+            <div class="dropdown-box">
+                <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                        <a class="dropdown-link" href="#">Action</a>
+                    </li>
+                    <li class="dropdown-item">
+                        <a class="dropdown-link" href="#">Some</a>
+                    </li>
+                    <li class="dropdown-item">
+                        <a class="dropdown-link" href="#">Come on</a>
+                    </li>
+                    <li class="dropdown-item">
+                        <a class="dropdown-link" href="#">Something else here</a>
+                    </li>
+                    </li>
+                    <li class="dropdown-item">
+                        <a class="dropdown-link" href="#">Action</a>
+                    </li>
+                    <li class="dropdown-item">
+                        <a class="dropdown-link" href="#">Some</a>
+                    </li>
+                    <li class="dropdown-item">
+                        <a class="dropdown-link" href="#">Come on</a>
+                    </li>
+                    <li class="dropdown-item">
+                        <a class="dropdown-link" href="#">Something else here</a>
+                    </li>
+                    <li class="dropdown-item">
+                        <a class="dropdown-link" href="#">Action</a>
+                    </li>
+                    <li class="dropdown-item">
+                        <a class="dropdown-link" href="#">Some</a>
+                    </li>
+                    <li class="dropdown-item">
+                        <a class="dropdown-link" href="#">Come on</a>
+                    </li>
+                    <li class="dropdown-item">
+                        <a class="dropdown-link" href="#">Something else here</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container">
+
+            <div class="contents">
+                <ul>
+                    <li>
+                        @media screen and (max-width:648px) {
+
+                        .dropdown-menu {
+                        height: 300px;
+                        }
+
+                        .dropdown-item {
+                        margin-left: 20px;
+                        margin-right: 20px;
+                        }
+
+                        }<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                        @media screen and (max-width:508px) {
+
+                        .dropdown-menu {
+                        height: 250px;
+                        padding: 15px;
+                        display: none;
+                        }
+
+                        .burger-btn {
+                        cursor: pointer;
+                        display: block;
+                        padding: 1px;
+                        margin: 4px;
+                        box-shadow: 0 0 0 0;
+                        }
+                        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                        .burger-btn.active {
+                        box-shadow: 0 1px 4px 0;
+                        }
+
+                        .burger-btn div {
+                        width: 30px;
+                        height: 4px;
+                        margin: 4px;
+                        background-color: rgb(30, 30, 30);
+                        border-radius: 60%;
+                        transition: all 2s;
+                        }
+
+                        .burger-btn :hover {
+                        background-color: rgba(0, 0, 255, 0.281);
+                        }
+
+                        .navbar-nav {
+                        display: none;
+                        }
+
+                        .navbar-logo {
+                        width: 350px;
+                        }
+
+                        .navbar-logo span {
+                        margin-left: 21vw;
+                        color: rgb(50, 50, 50);
+                        font-weight: bold;
+                        border-right: transparent;
+                        }
+                        }
+
+                        /* Labtop */
+
+
+                        /* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
+
+                        .hidden {
+                        display: none;
+                        opacity: 0;
+                        }
+
+                        .appear {
+                        animation: fade-in 1s;
+                        animation-fill-mode: forwards;
+                        display: flex;
+                        }
+
+                        .disappear {
+                        animation: fade-out 1s;
+                        animation-fill-mode: forwards;
+                        }
+
+                        @keyframes fade-in {
+                        from {
+                        opacity: 0;
+                        }
+
+                        to {
+                        opacity: 1;
+                        }
+                        }
+
+                        @keyframes fade-out {
+                        from {
+                        opacity: 1;
+
+                        }
+
+                        to {
+                        opacity: 0;
+                        }
+                        }
+
+                        .container {
+                        width: 100%;
+                        }
+
+                        .modal-btn-box {
+                        position: absolute;
+                        width: 100%;
+                        text-align: center;
+
+                        bottom: 4%;
+                        }
+
+                        .modal-btn-box button {
+                        display: inline-block;
+                        width: 150px;
+                        height: 70px;
+                        background-color: black;
+                        color: white;
+                        border: 1px solid #e1e1e1;
+                        box-shadow: 0 3px 20px 0;
+                        border-radius: 20%;
+                        font-size: large;
+                        font-weight: bold;
+                        cursor: pointer;
+                        }
+
+                        .popup-wrap {
+                        background-color: rgba(0, 0, 0, .3);
+                        justify-content: center;
+                        align-items: center;
+                        position: fixed;
+                        top: 0;
+                        left: 0;
+                        right: 0;
+                        bottom: 0;
+                        display: none;
+                        padding: 15px;
+                        box-sizing: border-box;
+                        }
+
+                        .body-contentbox {
+                        text-align: center;
+                        }
+
+                        .body-content ul li {
+                        margin: 5px;
+                        }
+
+                        .popup {
+                        width: 100%;
+                        max-width: 400px;
+                        background-color: #ffffff;
+                        border-radius: 10px;
+                        overflow: hidden;
+                        background-color: rgb(30, 30, 30);
+                        box-shadow: 5px 10px 10px 1px rgba(0, 0, 0, .3);
+                        }
+
+                        .popup-head {
+                        width: 100%;
+                        height: 50px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        padding: 15px;
+                        }
+
+                        .head-title {
+                        font-size: 28px;
+                        font-style: italic;
+                        color: #ffffff;
+                        font-weight: 700;
+                        letter-spacing: -3px;
+                        text-align: center;
+                        }
+
+                        .popup-body {
+                        width: 100%;
+                        background-color: #ffffff;
+                        }
+
+                        .body-content {
+                        width: 100%;
+                        padding: 10px;
+                        }
+                    </li>
+                    <li>
+
+                        ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ
+                        ㅋ
+                        ㅋ
+                        ㅋ
+
+                        ㅋ
+                        ㅋ
+                        ㅋ
+                        ㅋ
+                        ㅋ
+
+                        ㅋ
+                        ㅋ
+                        ㅋ
+
+                        ㅋ
+
+                        ㅋ
+                        ㅋ
+                        ㅋ
+
+                        ㅋ
+                        ㅋ
+                        ㅋ
+                        ㅋ
+                        ㅋ
+
+                        ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ
+                        ㅋ
+                        ㅋ
+
+
+                        ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ
+                        ㅋ
+                        ㅋ
+                        ㅋ
+                        ㅋ
+                        ㅋ
+                        ㅋ
+
+
+                    </li>
+                </ul>
+            </div>
+
+            <div class="popup-wrap" id="popup">
+                <div class="popup">
+                    <div class="popup-head">
+                        <span class="head-title">
+                            The Science Times</span>
+                    </div>
+                    <div class="popup-body">
+                        <div class="body-content">
+                            <div class="body-titlebox">
+                                <h3 style="font-style: italic;">구독하기</h3>
+                            </div>
+                            <div class="body-contentbox">
+                                <ul>
+                                    <li>
+                                        <input type="text" placeholder="Name"></input>
+                                    </li>
+                                    <li>
+                                        <input type="tel" placeholder="Tel"></input>
+                                    </li>
+                                    <li>
+                                        <input type="email" placeholder="E-mail"></input>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="popup-foot">
+                        <span class="pop-btn confirm" id="confirm">OK</span>
+                        <span class="pop-btn close" id="close">Cancel</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal-btn-box">
+                <button type="button" id="modal-open">Subscribe</button>
+            </div>
+        </div>
+        <footer>
+
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="./application copy.js"></script>
+</body>
+
+</html>

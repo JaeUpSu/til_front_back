@@ -1,0 +1,33 @@
+#container {
+    border: 1px solid black;
+    width: 100%;
+}
+
+#header {
+    border: 1px solid black;
+    text-align: center;
+    width: 100%;
+}
+
+#chatlist {
+    height: 500px;
+    width: 100%;
+    overflow: scroll;
+}
+
+#bottom {
+    border: 1px solid black;
+    height: 20px;
+}
+
+#btn {
+    float: right;
+    width: 14%;
+    color: white;
+    background-color: black;
+}
+
+#message {
+    float: left;
+    width: 84%;
+}

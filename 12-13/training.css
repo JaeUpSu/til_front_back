@@ -1,0 +1,72 @@
+/* #box1 {
+    background-color: #4cff00;
+    border: 1px solid transparent;
+    animation-name: shape;
+    animation-duration: 3s;
+}
+#box2 {
+    background-color: #8c2f00;
+    border: 1px solid transparent;
+    animation-name: rotate;
+    animation-duration: 3s;
+}
+@keyframes shape {
+    from { border: 1px solid transparent;}
+    to {
+        transform: translateX(200px);
+        border: 3px solid #000;
+        border-radius: 50%;
+    }
+}
+@keyframes rotate {
+    from { transform: rotate(8deg); }
+    to {
+        transform: rotate(45deg);
+    }
+}
+.box {
+    width: 200px;
+    height: 200px;
+} */
+
+.container {
+    display: flex;
+    background-color: wheat;
+    border: 2px solid #888;
+}
+.box {
+    padding: 5px 10px;
+    width: 100px;
+    color: white;
+    margin: 5px;
+    background-color: black;
+}
+#opt1 {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#opt1:hover {
+    background-color: blue;
+    transition: background-color 2s;
+}
+
+#opt1 :nth-child(1):hover {
+    background-color: red;
+    transform: translateX(20px);
+    transition: transform 3s;
+}
+
+#opt2 {
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+}
+
+#opt3 {
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+#opt4 {
+    flex-direction: column-reverse;
+}
